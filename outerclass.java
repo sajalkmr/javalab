@@ -13,9 +13,9 @@ class Outer {
 public class OuterInnerDemo {
     public static void main(String[] args) {
         Outer outer = new Outer();
-        outer.display(); // Call the display function of the outer class
-        // Create an instance of the inner class
+        outer.display(); 
+        
         Outer.Inner inner = outer.new Inner();
-        inner.display(); // Call the display function of the inner class
+        inner.display(); 
     }
 }
